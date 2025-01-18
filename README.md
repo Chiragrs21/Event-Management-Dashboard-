@@ -78,7 +78,7 @@ Here is a quick preview of the application:
 
 [![Watch the video](https://img.youtube.com/vi/dJ3vCqCL_Ok/maxresdefault.jpg)](https://youtu.be/dJ3vCqCL_Ok)
 
-### [Full Vedio](https://youtu.be/dJ3vCqCL_Ok)
+### [Watch Full Vedio](https://youtu.be/dJ3vCqCL_Ok)
 
 ## Contributing
 
