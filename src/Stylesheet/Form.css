@@ -1,0 +1,126 @@
+/* Overall container for the event details page */
+.event-detail-container {
+  width: 80%;
+  max-width: 1200px;
+  margin: 30px auto;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  font-family: "Arial", sans-serif;
+}
+
+/* Navbar Styling */
+.navbar {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: #007bff;
+  color: white;
+  padding: 15px 30px;
+  border-radius: 12px 12px 0 0;
+}
+
+.nav-item {
+  margin-right: 30px;
+  font-size: 1.2em;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.nav-item:hover {
+  text-decoration: underline;
+}
+
+/* Event Content Styling */
+.event-detail-content {
+  margin-top: 40px;
+  text-align: center;
+}
+
+.event-title {
+  font-size: 2.5em;
+  color: #333;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.event-banner-container {
+  margin-top: 20px;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.event-banner {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  border-radius: 12px;
+}
+
+/* Event Description Styling */
+.event-description {
+  font-size: 1.2em;
+  color: #555;
+  line-height: 1.6;
+  margin-top: 30px;
+  margin-bottom: 40px;
+}
+
+/* Add Attendee Button */
+.attendee-button-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.attendee-button {
+  background-color: #28a745;
+  color: white;
+  font-size: 1.2em;
+  padding: 12px 30px;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+}
+
+.attendee-button:hover {
+  background-color: #218838;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+}
+
+.attendee-button:focus {
+  outline: none;
+  border: 2px solid #218838;
+}
+
+/* Loading State */
+.loading {
+  font-size: 1.5em;
+  text-align: center;
+  padding: 50px;
+}
+
+/* Responsive Design */
+@media screen and (max-width: 768px) {
+  .event-detail-container {
+    width: 90%;
+    padding: 20px;
+  }
+
+  .event-title {
+    font-size: 2em;
+  }
+
+  .event-description {
+    font-size: 1.1em;
+  }
+
+  .attendee-button {
+    font-size: 1em;
+    padding: 10px 20px;
+  }
+}

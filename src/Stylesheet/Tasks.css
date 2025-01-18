@@ -1,0 +1,149 @@
+/* General Styles */
+body {
+  font-family: "Arial", sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f9f9f9;
+}
+
+.task-progress-page {
+  padding: 20px;
+}
+
+/* Navbar Styles */
+.navbar {
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.nav-items {
+  display: flex;
+  gap: 20px;
+}
+
+.nav-item {
+  font-weight: bold;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+
+/* Header and Add Task Button */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 90px 0;
+}
+
+.add-task-button {
+  padding: 10px 15px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.add-task-button:hover {
+  background-color: #0056b3;
+}
+
+/* Progress Bar */
+.progress-bar-container {
+  margin: 20px 0;
+}
+
+.progress-bar {
+  background-color: #ddd;
+  border-radius: 10px;
+  height: 20px;
+  overflow: hidden;
+}
+
+.progress-bar-fill {
+  background-color: #28a745;
+  height: 100%;
+  transition: width 0.3s ease-in-out;
+}
+
+.progress-bar-container p {
+  margin: 10px 0 0;
+  font-size: 14px;
+  font-weight: bold;
+  color: #555;
+}
+
+/* Task Table */
+.task-table-container {
+  margin-top: 20px;
+}
+
+.task-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+.task-table th,
+.task-table td {
+  padding: 10px;
+  border: 1px solid #ddd;
+  text-align: left;
+}
+
+.task-table th {
+  background-color: #f4f4f4;
+  font-weight: bold;
+}
+
+.task-table tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.task-table td input[type="checkbox"] {
+  cursor: pointer;
+}
+
+/* Add Task Form */
+.add-task-form-container {
+  background-color: white;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  width: 300px;
+  margin: 20px auto;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.add-task-form-container input {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.form-buttons {
+  display: flex;
+  justify-content: space-between;
+}
+
+.form-button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.cancel-button {
+  background-color: #dc3545;
+}
+
+.form-button:hover {
+  opacity: 0.9;
+}
