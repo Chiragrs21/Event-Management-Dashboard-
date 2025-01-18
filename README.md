@@ -51,6 +51,7 @@ Follow these steps to set up the project on your local machine:
      ```bash
      python app.py
      ```
+    
 
 3. **Frontend Setup:**
 
