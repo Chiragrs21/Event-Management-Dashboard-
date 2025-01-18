@@ -1,6 +1,6 @@
-# Event Management Model
+# Event Management Dashboard
 
-A comprehensive Event Management Model designed to streamline event handling with features such as an event page, attendee management, task tracker, and secure authentication.
+A comprehensive Event Management Dashboard designed to streamline event handling with features such as an event page, attendee management, task tracker, and secure authentication.
 
 ## Features
 
