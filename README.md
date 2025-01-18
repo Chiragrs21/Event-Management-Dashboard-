@@ -27,8 +27,8 @@ Follow these steps to set up the project on your local machine:
 1. **Clone the repository:**
 
    ```bash
-   git clone https://github.com/yourusername/event-management-model.git
-   cd event-management-model
+   git clone [https://github.com/yourusername/event-management-model.git](https://github.com/Mahesh93807/Event-Management-Dashboard-.git)
+   cd event-management-dashboard
    ```
 
 2. **Backend Setup:**
@@ -54,10 +54,6 @@ Follow these steps to set up the project on your local machine:
 
 3. **Frontend Setup:**
 
-   - Navigate to the frontend folder:
-     ```bash
-     cd frontend
-     ```
    - Install dependencies:
      ```bash
      npm install
