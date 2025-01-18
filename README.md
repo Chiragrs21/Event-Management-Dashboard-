@@ -76,7 +76,9 @@ Follow these steps to set up the project on your local machine:
 
 Here is a quick preview of the application:
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/YOUR_VIDEO_ID" frameborder="0" allowfullscreen></iframe>
+[![Watch the video](https://img.youtube.com/vi/dJ3vCqCL_Ok/maxresdefault.jpg)](https://youtu.be/dJ3vCqCL_Ok)
+
+### [Full Vedio](https://youtu.be/dJ3vCqCL_Ok)
 
 ## Contributing
 
